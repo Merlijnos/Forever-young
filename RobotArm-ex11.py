@@ -6,7 +6,7 @@ robotArm = RobotArm('exercise 11')
 robotArm.speed = 2
 for i in range(9):
     robotArm.moveRight()
-for i in range(9): 
+for i in range(10): 
     robotArm.grab()
     if robotArm.scan() == 'white':
         robotArm.moveRight()
